@@ -1,6 +1,7 @@
 import React, {Fragment} from "react";
 import PropTypes from "prop-types";
 
+
 const AudioPlayer = (props) => {
   const {isLoading, onPlayButtonClick, isPlaying, children} = props;
 
