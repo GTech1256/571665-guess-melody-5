@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
-import genreQuestionProp from "./genre-question.prop";
 import GenreQuestionItem from "../genre-question-item/genre-question-item";
+import genreQuestionProp from "./genre-question.prop";
 
 const GenreQuestionScreen = (props) => {
   const {

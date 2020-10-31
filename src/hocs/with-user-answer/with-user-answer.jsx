@@ -2,6 +2,7 @@ import React, {PureComponent} from "react";
 import PropTypes from "prop-types";
 import {GameType} from "../../const";
 
+
 const withUserAnswer = (Component) => {
   class WithUserAnswer extends PureComponent {
     constructor(props) {
